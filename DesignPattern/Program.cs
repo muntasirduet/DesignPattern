@@ -1,10 +1,13 @@
-﻿namespace DesignPattern
+﻿using DesignPattern.SOLID;
+
+namespace DesignPattern
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            SingleResponsibilityPrinciple singleResponsibility = new SingleResponsibilityPrinciple();
+            singleResponsibility.Run();
         }
     }
 }
