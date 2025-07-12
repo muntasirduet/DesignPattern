@@ -1,0 +1,15 @@
+E:\C#\Design Pattern\DesignPattern\DesignPattern\bin\Debug\net9.0\DesignPattern.exe
+E:\C#\Design Pattern\DesignPattern\DesignPattern\bin\Debug\net9.0\DesignPattern.deps.json
+E:\C#\Design Pattern\DesignPattern\DesignPattern\bin\Debug\net9.0\DesignPattern.runtimeconfig.json
+E:\C#\Design Pattern\DesignPattern\DesignPattern\bin\Debug\net9.0\DesignPattern.dll
+E:\C#\Design Pattern\DesignPattern\DesignPattern\bin\Debug\net9.0\DesignPattern.pdb
+E:\C#\Design Pattern\DesignPattern\DesignPattern\obj\Debug\net9.0\DesignPattern.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Design Pattern\DesignPattern\DesignPattern\obj\Debug\net9.0\DesignPattern.AssemblyInfoInputs.cache
+E:\C#\Design Pattern\DesignPattern\DesignPattern\obj\Debug\net9.0\DesignPattern.AssemblyInfo.cs
+E:\C#\Design Pattern\DesignPattern\DesignPattern\obj\Debug\net9.0\DesignPattern.csproj.CoreCompileInputs.cache
+E:\C#\Design Pattern\DesignPattern\DesignPattern\obj\Debug\net9.0\DesignPattern.sourcelink.json
+E:\C#\Design Pattern\DesignPattern\DesignPattern\obj\Debug\net9.0\DesignPattern.dll
+E:\C#\Design Pattern\DesignPattern\DesignPattern\obj\Debug\net9.0\refint\DesignPattern.dll
+E:\C#\Design Pattern\DesignPattern\DesignPattern\obj\Debug\net9.0\DesignPattern.pdb
+E:\C#\Design Pattern\DesignPattern\DesignPattern\obj\Debug\net9.0\DesignPattern.genruntimeconfig.cache
+E:\C#\Design Pattern\DesignPattern\DesignPattern\obj\Debug\net9.0\ref\DesignPattern.dll
