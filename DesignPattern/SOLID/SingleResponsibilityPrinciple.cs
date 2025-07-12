@@ -1,11 +1,17 @@
 ﻿namespace DesignPattern.SOLID
 {
+
+    //A class should have only one reason to change.
+    // This means that a class should only
+    // have one responsibility or job. If a class has multiple responsibilities, it becomes harder to maintain and test.
+
     public class InvoiceCalculator { 
         public decimal CalculateTotal(List<decimal> itemPrices)
         {
             return itemPrices.Sum();
         }
     }
+    // The InvoiceCalculator class is responsible for calculating the total of a list of item prices.
     public class InvoicePrinter
     {
         public void PrintInvoice(List<decimal> itemPrices)
@@ -18,7 +24,7 @@
             Console.WriteLine($"Total: {itemPrices.Sum():C}");
         }
     }
-
+    // The InvoicePrinter class is responsible for printing the invoice details to the console.
     public class EmailSender
     {
         public void SendEmail(string recipient, string subject, string body)
@@ -28,6 +34,7 @@
             Console.WriteLine($"Body: {body}");
         }
     }
+    // The EmailSender class is responsible for sending emails. It has a single method to send an email with a recipient, subject, and body.
     public class InvoiceManager
     {
         private readonly InvoiceCalculator _calculator;
@@ -44,6 +51,8 @@
             Console.WriteLine($"Final Total: {total:C}");
         }
     }
+    // The InvoiceManager class is responsible for managing the invoice processing. It uses the InvoiceCalculator to calculate the total and the InvoicePrinter to
+    // print the invoice details. This class has a single responsibility of managing the invoice workflow.
     public class SingleResponsibilityPrinciple
     {
         InvoiceManager invoiceManager = new InvoiceManager(new InvoiceCalculator(), new InvoicePrinter());
